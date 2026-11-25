@@ -1,4 +1,4 @@
-import asyncio
+﻿import asyncio
 from playwright.async_api import async_playwright
 
 PAGES = ['index.html', 'gora.html', 'zivi-svijet.html', 'povijest.html', 'staza.html', 'igre.html', 'izvori.html',
@@ -14,7 +14,7 @@ async def main():
         page.on('pageerror', lambda e: errors.append(('pageerror', str(e))))
         page.on('response', lambda r: errors.append(('http', r.status, r.url)) if r.status >= 400 else None)
         for path in PAGES:
-            await page.goto('http://127.0.0.1:8765/' + path, wait_until='networkidle')
+            await page.goto('http://127.0.0.1:8766/' + path, wait_until='networkidle')
             await page.wait_for_timeout(250)
             t = await page.title()
             print('OK', path, '|', t)
