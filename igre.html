@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b3a2d">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <title>Igre · Kvizovi i križaljka · Moslavina</title>
+  <meta name="description" content="Edukativne igre o Moslavačkoj gori: kvizovi o stijenama, biljkama, životinjama i zanimljivostima te križaljka.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="igre">
+  <a class="skip-link" href="#main">Preskoči na sadržaj</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">05 · Igre</p>
+        <h1>Igraj se i uči</h1>
+        <p class="lead">Pet načina da provjeriš što znaš — bez pritiska i bez vremenskog ograničenja. Nakon svakog odgovora slijedi objašnjenje, a rezultat se pamti u tvom pregledniku.</p>
+      </div>
+    </section>
+
+    <section class="section--tight">
+      <div class="wrap">
+        <div class="card" style="display:flex;flex-wrap:wrap;align-items:center;gap:20px;justify-content:space-between;margin-bottom:26px">
+          <div>
+            <p class="eyebrow" style="margin-bottom:.3rem">Tvoj napredak</p>
+            <h2 style="font-size:1.5rem;margin:0"><span id="done-count">0</span> / 5 igara riješeno</h2>
+          </div>
+          <div class="pill-row" id="progress-chips"></div>
+        </div>
+
+        <div class="grid grid-3">
+          <a class="card game-card" href="igre/kviz.html?k=stijene">
+            <div class="game-card__top"><span class="game-card__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#b3542f" stroke-width="1.7"><path d="M3 17l5-6 4 3 5-8 4 5"/><path d="M3 21h18"/></svg>
+            </span><span class="tag tag--clay">Kviz</span></div>
+            <h3>Stijene i geologija</h3>
+            <p>Granit, gabro, minerali, rasjedi i duboko vrijeme. 12 pitanja s objašnjenjima.</p>
+            <div class="game-card__meta"><span class="progress-dot" data-progress="kviz-stijene"></span><span data-score="kviz-stijene">Još nije igrano</span></div>
+          </a>
+
+          <a class="card game-card" href="igre/kviz.html?k=biljke">
+            <div class="game-card__top"><span class="game-card__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3f6b52" stroke-width="1.7"><path d="M12 21V9"/><path d="M12 9c0-4 3-6 7-6 0 4-2 7-7 7Z"/><path d="M12 14c-4 0-7-2-7-6 4 0 7 2 7 6Z"/></svg>
+            </span><span class="tag">Kviz</span></div>
+            <h3>Biljke moslavačke šume</h3>
+            <p>Zimzelen, kopitnjak, paprati, bukva i hrast. Prepoznaj tri kata šume.</p>
+            <div class="game-card__meta"><span class="progress-dot" data-progress="kviz-biljke"></span><span data-score="kviz-biljke">Još nije igrano</span></div>
+          </a>
+
+          <a class="card game-card" href="igre/kviz.html?k=zivotinje">
+            <div class="game-card__top"><span class="game-card__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8a5a2b" stroke-width="1.7"><circle cx="12" cy="13" r="4"/><circle cx="5" cy="8" r="2"/><circle cx="19" cy="8" r="2"/><circle cx="8" cy="4.5" r="1.6"/><circle cx="16" cy="4.5" r="1.6"/></svg>
+            </span><span class="tag tag--amber">Kviz</span></div>
+            <h3>Životinje u šumi</h3>
+            <p>Jelen, kuna, jelenak, crna roda i ptice duboke šume. 12 pitanja.</p>
+            <div class="game-card__meta"><span class="progress-dot" data-progress="kviz-zivotinje"></span><span data-score="kviz-zivotinje">Još nije igrano</span></div>
+          </a>
+
+          <a class="card game-card" href="igre/kviz.html?k=cinjenice">
+            <div class="game-card__top"><span class="game-card__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#b8862f" stroke-width="1.7"><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4"/><circle cx="12" cy="12" r="4"/></svg>
+            </span><span class="tag tag--amber">Da / ne</span></div>
+            <h3>Zanimljive činjenice</h3>
+            <p>Nafta, diadem, otok u moru, seizmograf na Humki. Što je istina?</p>
+            <div class="game-card__meta"><span class="progress-dot" data-progress="kviz-cinjenice"></span><span data-score="kviz-cinjenice">Još nije igrano</span></div>
+          </a>
+
+          <a class="card game-card" href="krizaljka.html">
+            <div class="game-card__top"><span class="game-card__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#173327" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+            </span><span class="tag tag--dark" style="background:var(--forest);color:var(--paper)">Križaljka</span></div>
+            <h3>Križaljka Moslavina</h3>
+            <p>16 pojmova iz geologije, biljnog i životinjskog svijeta te povijesti.</p>
+            <div class="game-card__meta"><span class="progress-dot" data-progress="krizaljka"></span><span data-score="krizaljka">Još nije riješena</span></div>
+          </a>
+
+          <div class="card game-card game-card--soon">
+            <div class="game-card__top"><span class="game-card__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8fb09a" stroke-width="1.7"><path d="M12 5v14M5 12h14"/></svg>
+            </span><span class="tag">Uskoro</span></div>
+            <h3>Nove igre</h3>
+            <p>Igre pamćenja, povezivanja parova i terenska potraga. Prostor je otvoren — javi ideju.</p>
+            <div class="game-card__meta"><span>U pripremi</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="split">
+          <div class="reveal">
+            <p class="eyebrow">Kako se igra</p>
+            <h2 style="font-size:clamp(1.9rem,3.6vw,2.7rem)">Pogriješiti je dio učenja</h2>
+            <p>Svaki kviz ima dvanaest pitanja. Odabereš odgovor, dobiješ objašnjenje i tek onda ideš dalje. Na kraju vidiš rezultat, značku i popis pitanja koja vrijedi ponoviti.</p>
+            <p>Rezultat se sprema lokalno u tvom pregledniku — bez računa i bez slanja podataka. Na zajedničkom računalu svatko ima svoj napredak.</p>
+            <div class="callout">
+              <span class="callout__icon" aria-hidden="true">⌨️</span>
+              <div>Kvizovi rade i tipkovnicom: brojevi 1–4 odabiru odgovor, Enter vodi na sljedeće pitanje. Kod križaljke strelice služe za kretanje po mreži.</div>
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="card card--flat">
+              <h3 style="font-size:1.1rem">Značke</h3>
+              <div class="kv" style="margin-top:12px">
+                <dt>90–100 %</dt><dd>🏔️ Gorski znalac</dd>
+                <dt>70–89 %</dt><dd>🧭 Istraživač gore</dd>
+                <dt>50–69 %</dt><dd>🌿 Mladi čuvar šume</dd>
+                <dt>manje od 50 %</dt><dd>📖 Vrijedi ponoviti</dd>
+              </div>
+              <hr class="rule" style="margin:18px 0">
+              <p class="small muted" style="margin:0">Savjet: prije kviza pročitaj stranicu koja mu odgovara. Pitanja su sastavljena iz istih izvora, ali ne prepisuju rečenice — provjeravaju razumijevanje.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="assets/js/site.js"></script>
+  <script>
+    (function () {
+      var progress = window.Moslavina.readProgress();
+      var ids = ["kviz-stijene", "kviz-biljke", "kviz-zivotinje", "kviz-cinjenice", "krizaljka"];
+      var done = 0;
+      ids.forEach(function (id) {
+        var d = progress[id];
+        var dot = document.querySelector('.progress-dot[data-progress="' + id + '"]');
+        var score = document.querySelector('[data-score="' + id + '"]');
+        if (d) {
+          done++;
+          if (dot) dot.classList.add("is-done");
+          if (score) score.textContent = (id === "krizaljka" ? "Riješeno" : "Najbolje: " + d.score + "/" + d.total);
+        }
+      });
+      document.getElementById("done-count").textContent = done;
+      var names = { "kviz-stijene": "Stijene", "kviz-biljke": "Biljke", "kviz-zivotinje": "Životinje", "kviz-cinjenice": "Činjenice", "krizaljka": "Križaljka" };
+      document.getElementById("progress-chips").innerHTML = ids.map(function (id) {
+        var ok = !!progress[id];
+        return '<span class="tag" style="' + (ok ? "" : "opacity:.55") + '">' + (ok ? "✓ " : "") + names[id] + "</span>";
+      }).join("");
+    })();
+  </script>
+</body>
+</html>

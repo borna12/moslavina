@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Moslavačka gora: slojevite šumske padine i staza do vrha</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef6ec"/>
+      <stop offset="1" stop-color="#dcebdd"/>
+    </linearGradient>
+    <linearGradient id="ridgeA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9dbfa4"/>
+      <stop offset="1" stop-color="#7ea389"/>
+    </linearGradient>
+    <linearGradient id="ridgeB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c8768"/>
+      <stop offset="1" stop-color="#3f6b52"/>
+    </linearGradient>
+    <linearGradient id="ridgeC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b5341"/>
+      <stop offset="1" stop-color="#173327"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="296" cy="262" r="242" fill="url(#sky)"/>
+  <circle cx="296" cy="262" r="242" fill="none" stroke="#c7ddcb" stroke-width="1"/>
+
+  <!-- contour rings -->
+  <g fill="none" stroke="#b3cfb7" stroke-width="1" opacity=".7">
+    <path d="M84 300c10-70 74-128 148-140 92-15 176 24 214 88 42 71 10 160-58 204"/>
+    <path d="M104 296c10-60 66-110 132-121 82-13 156 22 190 80 37 64 8 143-52 182"/>
+    <path d="M126 292c9-51 57-94 114-104 71-11 135 19 165 69 32 55 7 123-45 157"/>
+    <path d="M150 289c8-42 48-78 96-86 60-10 114 16 139 58 27 46 6 104-38 132"/>
+  </g>
+
+  <!-- sun -->
+  <circle cx="416" cy="120" r="54" fill="#f0cd8a"/>
+  <circle cx="416" cy="120" r="54" fill="none" stroke="#d9a441" stroke-width="1.5" opacity=".55"/>
+  <circle cx="416" cy="120" r="36" fill="#d9a441" opacity=".92"/>
+
+  <!-- back ridge -->
+  <path d="M18 372 96 288l38 26 46-70 32 34 44-58 40 48 40-36 42 44 38-24 46 52 42-34 46 70v126H18Z" fill="url(#ridgeA)"/>
+  <!-- mid ridge -->
+  <path d="M14 410 82 344l44 22 52-66 40 36 50-54 44 44 44-36 50 48 40-28 46 52 44-40 58 62v76H14Z" fill="url(#ridgeB)"/>
+  <!-- front ridge -->
+  <path d="M10 454 70 402l34 18 40-34 38 26 44-42 34 24 38-28 36 30 44-22 34 28 40-18 40 26 48-14 40 24 34-10 28 18v92H10Z" fill="url(#ridgeC)"/>
+
+  <!-- contour lines on front ridge -->
+  <g fill="none" stroke="#6f9581" stroke-width="1" opacity=".5">
+    <path d="M20 470c40-16 58-8 96-26s66 4 104-10 62 12 104-4 70 10 108-4 60 8 100-4"/>
+    <path d="M28 492c46-14 62-6 104-20s62 2 100-10 66 10 104-2 64 8 96-4 56 4 88-2"/>
+  </g>
+
+  <!-- trees -->
+  <g fill="#12271e" opacity=".85">
+    <path d="m74 424 8-20 8 20Zm0 8 8-14 8 14Z"/>
+    <path d="m120 414 7-18 7 18Zm0 7 7-12 7 12Z"/>
+    <path d="m402 410 9-23 9 23Zm0 9 9-16 9 16Z"/>
+    <path d="m460 428 7-18 7 18Zm0 7 7-12 7 12Z"/>
+    <path d="m505 416 6-15 6 15Zm0 6 6-10 6 10Z"/>
+    <path d="m248 424 6-15 6 15Zm0 6 6-10 6 10Z"/>
+  </g>
+
+  <!-- trail -->
+  <path d="M64 486c36-18 40-44 72-58s34-42 70-52 30-46 66-58 32-38 62-52 40-18 62-42" fill="none" stroke="#f8f4e9" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9" opacity=".85"/>
+  <g fill="#f8f4e9" stroke="#173327" stroke-width="2">
+    <circle cx="64" cy="486" r="5"/>
+    <circle cx="136" cy="428" r="5"/>
+    <circle cx="206" cy="376" r="5"/>
+    <circle cx="272" cy="318" r="5"/>
+    <circle cx="334" cy="260" r="5"/>
+    <circle cx="396" cy="202" r="6"/>
+  </g>
+
+  <!-- birds -->
+  <g fill="none" stroke="#173327" stroke-width="2" stroke-linecap="round" opacity=".75">
+    <path d="M304 118c5-6 9-6 14 0 5-6 9-6 14 0"/>
+    <path d="M342 92c4-5 7-5 11 0 4-5 7-5 11 0"/>
+  </g>
+</svg>

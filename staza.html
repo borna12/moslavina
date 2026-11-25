@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b3a2d">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <title>Staza Crkveni jarak · Moslavačka gora · Moslavina</title>
+  <meta name="description" content="Poučna staza Crkveni jarak: 7,5 km, 12 stajališta, potok Kamenjača, slapovi, poučne točke o geologiji, šumi i pavlinskom samostanu.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="staza">
+  <a class="skip-link" href="#main">Preskoči na sadržaj</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-hero page-hero--dark">
+      <div class="wrap">
+        <p class="eyebrow" style="color:var(--mint)">04 · Poučna staza</p>
+        <h1>Crkveni jarak</h1>
+        <p class="lead">Potok Kamenjača usjekao je duboki jarak pod najvišim vrhom gore. Uz njega vodi staza na kojoj se, na sedam i pol kilometara, izmjenjuju slapovi, kristalne stijene, tri kata šume i ostatci pavlinskog samostana.</p>
+        <div class="pill-row" style="margin-top:22px">
+          <span class="tag tag--dark">7,5 km</span>
+          <span class="tag tag--dark">≈ 2 h</span>
+          <span class="tag tag--dark">12 stajališta</span>
+          <span class="tag tag--dark">lagana do umjerena</span>
+          <span class="tag tag--dark">obilazak pješice, biciklom ili nordijskim hodanjem</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section--tight">
+      <div class="wrap">
+        <div class="trail-layout">
+          <div>
+            <div class="map-card">
+              <svg id="trail-map" viewBox="0 0 700 540" role="img" aria-label="Shema staze Crkveni jarak s ulazima, potokom i poučnim točkama">
+                <defs>
+                  <pattern id="treeDots" width="26" height="26" patternUnits="userSpaceOnUse">
+                    <path d="M6 16l5-9 5 9Zm4 5 3-6 3 6Z" fill="#4a7259" opacity=".28"/>
+                  </pattern>
+                  <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#8ec9d9"/>
+                    <stop offset="1" stop-color="#5aa3bb"/>
+                  </linearGradient>
+                </defs>
+
+                <rect width="700" height="540" rx="14" fill="#dff0e5"/>
+                <rect width="700" height="540" rx="14" fill="url(#treeDots)" opacity=".55"/>
+
+                <!-- contour lines -->
+                <g fill="none" stroke="#8fb09a" stroke-width="1" opacity=".5">
+                  <path d="M40 470c90-50 130-130 190-190s120-100 180-80 100 90 80 160-100 120-190 130"/>
+                  <path d="M70 490c90-50 130-120 185-175s115-90 170-75 90 80 72 145-95 110-178 118"/>
+                  <path d="M110 505c80-45 115-105 165-155s105-80 155-68 80 70 65 128-85 100-160 108"/>
+                </g>
+
+                <!-- lake -->
+                <ellipse cx="118" cy="432" rx="58" ry="34" fill="url(#lake)"/>
+                <ellipse cx="118" cy="432" rx="58" ry="34" fill="none" stroke="#3b7d94" stroke-width="1.5"/>
+                <text x="118" y="404" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#245467" font-weight="600">JEZERO MIKLEUŠKA</text>
+
+                <!-- stream -->
+                <path d="M395 118c-8 28-28 40-44 64s-18 46-38 68-44 26-60 50-16 52-34 72-52 24-64 44" fill="none" stroke="#5aa3bb" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M352 182c-12 12-16 30-30 44M286 288c-14 10-20 26-34 38" fill="none" stroke="#5aa3bb" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+                <!-- trail -->
+                <path id="trail-path" d="M132 408C160 396 178 380 196 356 214 332 222 326 240 310 258 294 266 286 284 266 302 246 312 238 330 216 348 194 356 186 368 170 380 154 388 142 400 130 406 124 412 118 420 112 440 118 452 132 458 152 466 178 464 196 456 216 448 236 436 248 422 264 408 280 400 292 392 310 384 328 372 342 360 356 348 370 338 382 324 394 310 406 292 416 270 422 246 428 218 430 196 426 176 422 158 416 146 410" fill="none" stroke="#f8f4e9" stroke-width="9" stroke-linecap="round" opacity=".9"/>
+                <path d="M132 408C160 396 178 380 196 356 214 332 222 326 240 310 258 294 266 286 284 266 302 246 312 238 330 216 348 194 356 186 368 170 380 154 388 142 400 130 406 124 412 118 420 112 440 118 452 132 458 152 466 178 464 196 456 216 448 236 436 248 422 264 408 280 400 292 392 310 384 328 372 342 360 356 348 370 338 382 324 394 310 406 292 416 270 422 246 428 218 430 196 426 176 422 158 416 146 410" fill="none" stroke="#b3542f" stroke-width="2" stroke-dasharray="6 8" stroke-linecap="round"/>
+                
+
+                <!-- trees -->
+                <g fill="#2b5341" opacity=".55">
+                  <path d="M560 300l10-18 10 18Zm0 9 10-13 10 13Z"/>
+                  <path d="M600 340l9-16 9 16Zm0 8 9-12 9 12Z"/>
+                  <path d="M500 360l8-14 8 14Zm0 7 8-11 8 11Z"/>
+                  <path d="M470 430l9-16 9 16Zm0 8 9-12 9 12Z"/>
+                  <path d="M300 430l8-14 8 14Zm0 7 8-11 8 11Z"/>
+                  <path d="M250 470l9-16 9 16Zm0 8 9-12 9 12Z"/>
+                </g>
+
+                <!-- entrances -->
+                <g font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#173327">
+                  <g>
+                    <rect x="86" y="462" width="86" height="24" rx="12" fill="#f8f4e9" stroke="#173327"/>
+                    <text x="129" y="478" text-anchor="middle">ULAZ · jezero</text>
+                  </g>
+                  <g>
+                    <rect x="300" y="34" width="96" height="24" rx="12" fill="#f8f4e9" stroke="#173327"/>
+                    <text x="348" y="50" text-anchor="middle">ULAZ · Humka</text>
+                  </g>
+                </g>
+
+                <!-- peak labels -->
+                <g font-family="Inter, sans-serif">
+                  <text x="466" y="86" font-size="11" font-weight="700" fill="#173327">HUMKA · 488 m</text>
+                  <text x="600" y="210" font-size="11" font-weight="600" fill="#173327">VIS · 437 m</text>
+                  <circle cx="600" cy="222" r="4" fill="#173327"/>
+                </g>
+
+                <!-- stops injected by JS? static -->
+                <g id="map-stops"></g>
+
+                <!-- legend -->
+                <g font-family="Inter, sans-serif" font-size="10" fill="#2b4338">
+                  <circle cx="36" cy="500" r="6" fill="#f8f4e9" stroke="#b3542f" stroke-width="2"/>
+                  <text x="48" y="504">poučna točka</text>
+                  <path d="M150 500h22" stroke="#b3542f" stroke-width="2" stroke-dasharray="6 8"/>
+                  <text x="180" y="504">staza</text>
+                </g>
+              </svg>
+            </div>
+            <p class="small muted" style="margin-top:10px">Shema staze nije geografska karta u mjerilu — služi za snalaženje u sadržaju. Za teren koristi oznake na stazi i kartu Parka.</p>
+          </div>
+
+          <aside class="stop-info" id="stop-info" aria-live="polite">
+            <div id="stop-content"></div>
+            <ul class="stop-list" id="stop-list" aria-label="Odaberi stajalište"></ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Prije polaska</p>
+          <h2>Kako do staze i što ponijeti</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="card reveal">
+            <h3>Ulazi</h3>
+            <p class="small">Glavni ulazi su u blizini jezera Mikleuška — uz samo jezero i južnije od njega. Dodatni ulaz je na sjeveru, kod vrha Humka. Staza se spaja i s brojnim planinarskim putovima.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Težina i oprema</h3>
+            <p class="small">Staza je lagana do umjerena, uređeni šumski put. Potrebna je udobna sportska obuća i odjeća. Dio staze je zahtjevniji, s usponima i korijenjem — prilagodi tempo vremenu i vlastitoj kondiciji.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Vrijeme</h3>
+            <p class="small">Prosječno oko 2 sata hoda. Dodaj vrijeme za čitanje panela, fotografiranje i odmor kod slapa. Ljeti kreni rano, zimi provjeri stanje staze.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-2" style="margin-top:24px">
+          <div class="card card--flat reveal">
+            <h3>Pravila ponašanja u šumi</h3>
+            <ul class="checklist">
+              <li>Poštuj životinje i ne uznemiravaj ih.</li>
+              <li>Ne beri zaštićene biljke.</li>
+              <li>Ne bacaj smeće — sve što doneseš, odnesi sa sobom.</li>
+              <li>Ne pali vatru.</li>
+              <li>Ostani na stazi i ne gazi mlado drveće.</li>
+            </ul>
+          </div>
+          <div class="card card--flat reveal">
+            <h3>Važni datumi u zaštiti prirode</h3>
+            <dl class="kv">
+              <dt>21. ožujka</dt><dd>Svjetski dan šuma</dd>
+              <dt>22. ožujka</dt><dd>Svjetski dan voda</dd>
+              <dt>22. travnja</dt><dd>Dan planeta Zemlje</dd>
+              <dt>22. svibnja</dt><dd>Svjetski dan biološke raznolikosti</dd>
+              <dt>5. lipnja</dt><dd>Svjetski dan zaštite okoliša</dd>
+              <dt>11. prosinca</dt><dd>Svjetski dan planina</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--mint">
+      <div class="wrap">
+        <div class="split">
+          <div class="reveal">
+            <p class="eyebrow">Doživljaj</p>
+            <h2 style="font-size:clamp(1.9rem,3.6vw,2.7rem)">„U sukobu potoka i stijene…“</h2>
+            <p style="font-family:var(--serif);font-size:1.3rem;line-height:1.4">„…potok uvijek pobjeđuje. Ali ne zbog snage, već zbog upornosti.“</p>
+            <p class="small muted">Natpis s odmorišta staze Crkveni jarak</p>
+            <p>Kamenjača ne teče preko gore — ona je reže. U višim dijelovima usjekla je duboke i uske jarke, a u nižim teče prostranijim dolinama prema slivu Lonje, odnosno Save. Njezina izdašnost ovisi o kiši i snijegu, ali i o tome koliko vode šuma zadrži.</p>
+          </div>
+          <div class="reveal">
+            <div class="figure__frame" style="background:var(--card);border:1px solid var(--line)">
+              <img src="assets/img/ilustracije/granit.png" alt="Ilustracija granita." style="max-height:260px;margin:0 auto;padding:20px">
+            </div>
+            <p class="small muted" style="margin-top:8px">U potoku Kamenjača, nedaleko od staze, utvrđen je nalaz gabra — stijene tipične za oceansku koru.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="card" style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between">
+          <div><p class="eyebrow" style="margin-bottom:.3rem">Nakon šetnje</p><h3 style="font-size:1.5rem;margin:0">Riješi križaljku o stazi i gori</h3></div>
+          <div class="pill-row"><a class="btn" href="krizaljka.html">Križaljka</a><a class="btn btn--ghost" href="igre.html">Sve igre</a></div>
+        </div>
+        <p class="source-note">Izvori: infopaneli i karta poučne staze Crkveni jarak (Grad Kutina, Turistička zajednica Grada Kutine); Mravunac, „Moslavina — iz geološke perspektive“. Puni popis na stranici <a href="izvori.html">Izvori</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/trail.js"></script>
+</body>
+</html>
